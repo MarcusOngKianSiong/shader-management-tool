@@ -1,0 +1,15 @@
+default,vertex,uniform,vec3,something
+default,vertex,uniform,vec3,nothing
+default,vertex,uniform,vec3,hello
+default,vertex,uniform,vec3,goodbye
+default,fragment,precision,mediump,float
+grid,vertex,uniform,vec3,something
+grid,vertex,uniform,vec3,nothing
+grid,vertex,uniform,vec3,hello
+grid,vertex,uniform,vec3,goodbye
+grid,fragment,precision,mediump,float
+border,vertex,uniform,vec3,something
+border,vertex,uniform,vec3,nothing
+border,vertex,uniform,vec3,hello
+border,vertex,uniform,vec3,goodbye
+border,fragment,precision,mediump,float

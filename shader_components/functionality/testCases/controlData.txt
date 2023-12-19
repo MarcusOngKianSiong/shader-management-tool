@@ -1,0 +1,4 @@
+something
+nothing
+hello
+goodbye

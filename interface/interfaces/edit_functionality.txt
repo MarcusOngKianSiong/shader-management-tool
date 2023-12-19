@@ -1,0 +1,28 @@
+//---FUNCTIONALITY---//
+grid
+//---FUNCTIONALITY---//
+
+//---VERTEX: variables---//
+uniform vec3 something;
+uniform vec3 nothing;
+uniform vec3 hello;
+uniform vec3 goodbye;
+//---VERTEX: variables---//
+
+//---VERTEX: operations---//
+void main(){
+    // THIS IS THE VERTEX OF grid
+	ADDED SOMETHING HERE
+}
+//---VERTEX: operations---//
+
+//---FRAGMENT: variables---//
+precision mediump float;
+//---FRAGMENT: variables---//
+
+//---FRAGMENT: operations---//
+void main(){
+    // THIS IS THE FRAGMENT OF grid
+}
+//---FRAGMENT: operations---//
+

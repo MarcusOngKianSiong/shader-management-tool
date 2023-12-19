@@ -1,0 +1,20 @@
+//---FUNCTIONALITY---//
+something
+//---FUNCTIONALITY---//
+
+//---VERTEX: variables---//
+Write your vertex shader variables here...
+//---VERTEX: variables---//
+
+//---VERTEX: operations---//
+Write your vertex shader operations here...
+//---VERTEX: operations---//
+
+//---FRAGMENT: variables---//
+Write your fragment shader variables here...
+//---FRAGMENT: variables---//
+
+//---FRAGMENT: operations---//
+Write your fragment shader operations here...
+//---FRAGMENT: operations---//
+

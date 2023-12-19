@@ -1,0 +1,8 @@
+functionality1,vertex,something,nothing,f1_vertex_shader_1
+functionality1,vertex,something,nothing,f1_vertex_shader_2
+functionality1,vertex,something,nothing,f1_vertex_shader_3
+functionality1,fragment,hey,there,f1_fragment_shader_1
+functionality2,vertex,something,nothing,f2_vertex_shader_1
+functionality2,vertex,something,nothing,f2_vertex_shader_2
+functionality2,vertex,something,nothing,f2_vertex_shader_3
+functionality2,fragment,hey,there,f2_fragment_shader_1

@@ -1,0 +1,10 @@
+functionality1,vertex,uniform,vec3,something
+functionality1,vertex,uniform,vec3,nothing
+functionality1,vertex,uniform,vec3,hello
+functionality1,vertex,uniform,vec3,goodbye
+functionality1,fragment,precision,mediump,float
+functionality2,vertex,uniform,vec3,something
+functionality2,vertex,uniform,vec3,nothing
+functionality2,vertex,uniform,vec3,hello
+functionality2,vertex,uniform,vec3,goodbye
+functionality2,fragment,precision,mediump,float

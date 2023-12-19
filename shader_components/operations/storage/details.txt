@@ -1,0 +1,37 @@
+//---Section name: default---//
+//---vertex---//
+void main(){
+    // THIS IS THE VERTEX OF default
+}
+//---vertex---//
+//---fragment---//
+void main(){
+    // THIS IS THE FRAGMENT OF default
+}
+//---fragment---//
+//---Section name: default---//
+//---Section name: grid---//
+//---vertex---//
+void main(){
+    // THIS IS THE VERTEX OF grid
+	ADDED SOMETHING HERE
+}
+//---vertex---//
+//---fragment---//
+void main(){
+    // THIS IS THE FRAGMENT OF grid
+}
+//---fragment---//
+//---Section name: grid---//
+//---Section name: border---//
+//---vertex---//
+void main(){
+    // THIS IS THE VERTEX OF border
+}
+//---vertex---//
+//---fragment---//
+void main(){
+    // THIS IS THE FRAGMENT OF border
+}
+//---fragment---//
+//---Section name: border---//

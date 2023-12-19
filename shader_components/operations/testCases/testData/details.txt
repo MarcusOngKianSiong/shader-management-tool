@@ -1,0 +1,24 @@
+//---Section name: functionality1---//
+//---vertex---//
+void main(){
+    // THIS IS THE VERTEX OF functionality 1
+}
+//---vertex---//
+//---fragment---//
+void main(){
+    // THIS IS THE FRAGMENT OF functionality 1
+}
+//---fragment---//
+//---Section name: functionality1---//
+//---Section name: functionality2---//
+//---vertex---//
+void main(){
+    // THIS IS THE VERTEX OF functionality 2
+}
+//---vertex---//
+//---fragment---//
+void main(){
+    // THIS IS THE FRAGMENT OF functionality 2
+}
+//---fragment---//
+//---Section name: functionality2---//
