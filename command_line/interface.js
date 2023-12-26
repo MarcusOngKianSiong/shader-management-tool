@@ -45,7 +45,7 @@ if(consoleInput[2] === `delete`){
 // Set up the new interface
 if(consoleInput[2] === `new`){
     CLInterface.setupUploadInterface("new",consoleInput[3]).then(res=>{
-        CLInterface.openInterfaceFile("new",'../interface/interfaces/new_functionality.txt');
+        CLInterface.openInterfaceFile("new",CLInterface.getInterfaceLocation("new"));
     }).catch(err=>{
         console.log(err.message);
     })
@@ -54,7 +54,7 @@ if(consoleInput[2] === `new`){
 // setup edit interface for editing functionality
 if(consoleInput[2] === `edit`){
     CLInterface.setupUploadInterface("edit",consoleInput[3]).then(res=>{
-        CLInterface.openInterfaceFile("edit","../interface/interfaces/edit_functionality.txt");
+        CLInterface.openInterfaceFile("edit",CLInterface.getInterfaceLocation("edit"));
     }).catch(err=>{
         console.log(err.message)
     })

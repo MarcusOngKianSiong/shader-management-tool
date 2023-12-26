@@ -13,3 +13,5 @@ border,vertex,uniform,vec3,nothing
 border,vertex,uniform,vec3,hello
 border,vertex,uniform,vec3,goodbye
 border,fragment,precision,mediump,float
+random,vertex,something,nothing,hello
+random,fragment,something,nothing,goodbye

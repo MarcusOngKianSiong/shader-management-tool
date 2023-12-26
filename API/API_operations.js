@@ -41,7 +41,7 @@ class APIOperations{
         // Well, it does handle the deconstruction of the original form. Why not handle the reconstruction?
         return await this.variableOperationsInterface.reconstructSingleShaderVariablesToOriginal(variables);
     }
-
+    
     async #joinSingleVariableAndShader(variable, shaderOperations){
         
         /*

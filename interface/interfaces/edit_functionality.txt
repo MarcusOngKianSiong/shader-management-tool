@@ -1,5 +1,5 @@
 //---FUNCTIONALITY---//
-grid
+default
 //---FUNCTIONALITY---//
 
 //---VERTEX: variables---//
@@ -11,8 +11,7 @@ uniform vec3 goodbye;
 
 //---VERTEX: operations---//
 void main(){
-    // THIS IS THE VERTEX OF grid
-	ADDED SOMETHING HERE
+    // THIS IS THE VERTEX OF default
 }
 //---VERTEX: operations---//
 
@@ -22,7 +21,7 @@ precision mediump float;
 
 //---FRAGMENT: operations---//
 void main(){
-    // THIS IS THE FRAGMENT OF grid
+    // THIS IS THE FRAGMENT OF default
 }
 //---FRAGMENT: operations---//
 

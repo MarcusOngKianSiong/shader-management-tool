@@ -1,3 +1,11 @@
-const {interfaceOperations} = require('./interfaceOperations.js')
+const {interfaceUtility,interfaceOperations} = require('./interfaceOperations.js')
 
-module.exports = {interfaceOperations}
+function getNewInterfaceLocation(){
+        return interfaceUtility.interfaceLocation("new");
+}
+
+function getEditInterfaceLocation(){
+	return interfaceUtility.interfaceLocation("edit");
+}
+
+module.exports = {interfaceOperations,getNewInterfaceLocation,getEditInterfaceLocation}

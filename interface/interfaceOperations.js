@@ -482,10 +482,26 @@ class interfaceOperations{
         return name;
     }
 
+    interfaceLocation(type){
+
+	if(type === "new"){
+		return `${__dirname}/interfaces/new_functionality.txt`;
+	}
+
+	if(type === "edit"){
+		return `${__dirname}/interfaces/edit_functionality.txt`;
+	}
+
+	throw new Error(`interface type ${type} does not exist`);
+
+    }
+
 }
 
 
+const interfaceUtility = new interfaceOperations();
 
-module.exports = {interfaceOperations}
+
+module.exports = {interfaceOperations,interfaceUtility}
 
 

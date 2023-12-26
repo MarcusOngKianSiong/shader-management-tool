@@ -1,9 +1,10 @@
 function show(){
     objective=$1
     subObjective=$2
+    currentDir=$(pwd)
     if [[ "$objective" == "interface" ]]; then
         if [[ "$subObjective" == "new" ]]; then
-            cat /Users/marcus/Desktop/DEVELOPMENT_INFRASTRUCTURE/WebGL_ShaderManagementTool/shader_management_tool/shaderManipulation/interface/interfaces/new_functionality.txt
+            cat "$currentDir/interface/interfaces/new_functionality.txt"
         fi
         if [[ "$subObjective" == "edit" ]]; then
             cat /Users/marcus/Desktop/DEVELOPMENT_INFRASTRUCTURE/WebGL_ShaderManagementTool/shader_management_tool/shaderManipulation/interface/interfaces/edit_functionality.txt
@@ -28,4 +29,6 @@ function show(){
 
 }
 
-
+function setup(){
+	source ./.setup.sh
+}

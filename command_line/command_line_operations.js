@@ -4,7 +4,9 @@ const {
     newVariableOperationsInstance
 } = require('../shader_components/shader_components.js')
 const {
-    interfaceOperations
+    interfaceOperations,
+    getNewInterfaceLocation,
+    getEditInterfaceLocation
 } = require('../interface/interface.js');
 const childProcess = require('child_process')
 /**
@@ -30,6 +32,18 @@ class commandLineInterface{
     }
 
     
+    getInterfaceLocation(type){
+	if(type === "new"){
+		return getNewInterfaceLocation();
+	}
+
+	if(type === "edit"){
+		return getEditInterfaceLocation();
+	}
+	throw new Error(`interface of type ${type} does not exist`);
+    }
+
+
 
     async #getData(){
         const data = {
@@ -208,6 +222,7 @@ class commandLineInterface{
             return false;
         }
         if(type === "new"){
+            console.log("I AM HERE")
             if(await this.functionalityInterface.doesFunctionalityExist(name)){
                 console.log(`\n\n"${name}" functionality already exist.`);
                 return false;
